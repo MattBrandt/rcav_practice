@@ -5,7 +5,7 @@ end
 
   def sqr
     @the_number = params[:number].to_f
-    @answer = Math.sqr(@the_number)
+    @answer = (@the_number)*(@the_number)
   end
 
   def sqrt
